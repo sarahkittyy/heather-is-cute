@@ -27,7 +27,7 @@ module.exports = {
 			{
 				test: /\.css$/,
 				exclude: /(nodule_modules|dist)/,
-				use: ['css-loader']
+				use: ['style-loader', 'css-loader']
 				
 			}
 		]
