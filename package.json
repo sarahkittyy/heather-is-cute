@@ -5,7 +5,8 @@
   "author": "Sarah",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --mode=development ./src/index.js"
+	"start": "webpack-dev-server --mode=development ./src/index.js",
+	"build": "webpack --mode=production ./src/index.js"
   },
   "dependencies": {
     "react": "^16.8.5",
